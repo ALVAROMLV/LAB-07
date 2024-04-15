@@ -4,6 +4,7 @@ import { WrapperList } from './components/WrapperList';
 import './App.css'
 import { List } from './components/List';
 import ImagenComponente from './components/RandomComponent';
+import CompWithProps from './components/CompWithProps';
 
 function App() {
   const buttonText = "Count : ";
@@ -11,8 +12,7 @@ function App() {
   return (
     <>
     
-    <ImagenComponente></ImagenComponente>
-        
+      <CompWithProps></CompWithProps>
     </>
   )
 }
