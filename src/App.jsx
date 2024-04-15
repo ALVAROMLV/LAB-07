@@ -9,9 +9,8 @@ function App() {
 
   return (
     <>
-      <WrapperList>
-        <List></List>
-      </WrapperList>
+    <Button ></Button>
+        
     </>
   )
 }
